@@ -6,8 +6,8 @@
       Given   the user is on the login page
 
       Scenario Outline: Users can login with valid credentials
-        When the user provides "<username>"
-        When the user provides "<password>"
+        When the user provides username "<username>"
+        When the user provides password "<password>"
         Then  the user should login successfully
         And be brought to the home page
 
@@ -15,8 +15,8 @@
         |username|password|
         |Batman|Iamthenight1939|
       Scenario Outline: Users cannot login with invalid credentials
-        When the user provides "<username>"
-        When the user provides "<password>"
+        When the user provides username "<username>"
+        When the user provides password "<password>"
         Then the user should get an invalid credentials alert
         And should remain on the login page
 

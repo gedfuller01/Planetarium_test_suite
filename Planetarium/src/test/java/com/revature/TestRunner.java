@@ -8,6 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -20,14 +23,21 @@ public class TestRunner {
     public static WebDriver driver = null;
     public static PlanetariumLogin planetariumLogin;
 
+    public static WebDriverWait webDriverWait;
+
     @BeforeClass
     public static void setup(){
         driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(1));
         planetariumLogin = new PlanetariumLogin(driver);
+
     }
 
     @AfterClass
     public static void tearDown(){
-
+        if(driver != null){
+            driver.quit();
+        }
     }
 }

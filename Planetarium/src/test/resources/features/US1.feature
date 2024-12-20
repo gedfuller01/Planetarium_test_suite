@@ -5,7 +5,7 @@ Feature: User Registration
 
   Background: Registration Starting Actions
     Given   the user is on the login page
-    And     the user clicks the register link
+    Given     the user clicks the register link
 
   @UR1 @UR2 @UR3 @UR4
   Scenario Outline: Users can register a new account with valid credentials
@@ -13,7 +13,7 @@ Feature: User Registration
     When    the user provides username "<username>"
     And     the user provides password "<password>"
     And     the user submits the credentials
-    Then    the user should get a browser alert saying "Account created successfully"
+    Then    the user should get a browser alert saying Account created successfully
     And     the user should be redirected to the login page
 
     Examples:
@@ -31,15 +31,15 @@ Feature: User Registration
 
     Examples:
       |username                       |password                       |alert                 |
-      |Batman	                        |Krypton-was_2000               |Invalid username alert|
-      |Bane	                        |Krypton-was_2000               |Invalid username alert|
-      |wonder_woman_for_the_DC_theming|Krypton-was_2000               |Invalid username alert|
-      |2face	                        |Krypton-was_2000               |Invalid username alert|
-      |joker!!!!!!?)	                |Krypton-was_2000               |Invalid username alert|
-      |Super_man-2001	                |b0Ts	                        |Invalid password alert|
-      |Super_man-2001	                |AlfredIsTheBestButlerToExist111|Invalid password alert|
-      |Super_man-2001	                |3atman	                        |Invalid password alert|
-      |Super_man-2001	                |A1fredIsTheBestButlerToExist!!	|Invalid password alert|
-      |Super_man-2001	                |batman1	                    |Invalid password alert|
-      |Super_man-2001	                |BATMAN1	                    |Invalid password alert|
-      |Super_man-2001	                |Robin	                        |Invalid password alert|
+      |Batman	                        |Krypton-was_2000               |Invalid username|
+      |Bane	                        |Krypton-was_2000               |Invalid username|
+      |wonder_woman_for_the_DC_theming|Krypton-was_2000               |Invalid username|
+      |2face	                        |Krypton-was_2000               |Invalid username|
+      |joker!!!!!!?)	                |Krypton-was_2000               |Invalid username|
+      |Super_man-2001	                |b0Ts	                        |Invalid password|
+      |Super_man-2001	                |AlfredIsTheBestButlerToExist111|Invalid password|
+      |Super_man-2001	                |3atman	                        |Invalid password|
+      |Super_man-2001	                |A1fredIsTheBestButlerToExist!!	|Invalid password|
+      |Super_man-2001	                |batman1	                    |Invalid password|
+      |Super_man-2001	                |BATMAN1	                    |Invalid password|
+      |Super_man-2001	                |Robin	                        |Invalid password|
