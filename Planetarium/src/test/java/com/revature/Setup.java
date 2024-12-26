@@ -17,7 +17,7 @@ public class Setup {
         resetTestDatabase();
     }
     public static void resetTestDatabase() {
-        Path sql = Path.of("C:\\Users\\gedzi\\Desktop\\Revature\\Planetarium\\src\\test\\resources\\setup-reset.sql");
+        Path sql = Path.of("C:\\Users\\Ged\\OneDrive\\Desktop\\Revature\\Planetarium_test_suite\\Planetarium\\src\\test\\resources\\setup-reset.sql");
         StringBuilder sqlBuilder = new StringBuilder();
         try (Connection conn = DatabaseConnector.getConnection(); Stream<String> lines = Files.lines(sql)) {
             conn.setAutoCommit(false);
@@ -29,7 +29,7 @@ public class Setup {
                 if (sqlStatement.contains("?")){
                     String type = sqlStatement.contains("moons") ? "moon" : "planet";
                     try(PreparedStatement ps = conn.prepareStatement(sqlStatement)){
-                        byte[] imageData = convertImgToByteArray(String.format("C:/Users/gedzi/Desktop/Revature/Planetarium/src/test/resources/Celestial-Images/%s-%d.jpg", type, imageCount));
+                        byte[] imageData = convertImgToByteArray(String.format("C:\\Users\\Ged\\OneDrive\\Desktop\\Revature\\Planetarium_test_suite\\Planetarium\\src\\test\\resources\\Celestial-Images\\%s-%d.jpg", type, imageCount));
                         ps.setBytes(1, imageData);
                         ps.executeUpdate();
                         imageCount = imageCount == 2 ? 1 : 2;

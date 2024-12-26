@@ -17,6 +17,7 @@
       Scenario Outline: Users cannot login with invalid credentials
         When the user provides username "<username>"
         When the user provides password "<password>"
+        And attempts to login
         Then the user should get an invalid credentials alert
         And should remain on the login page
 

@@ -30,7 +30,7 @@
 
     Examples:
     |moon|
-    |Titan|
+    |Luna|
 
   Scenario Outline: incorrect moon name
     When the user gives data "<moon>" for the moon they wish to delete

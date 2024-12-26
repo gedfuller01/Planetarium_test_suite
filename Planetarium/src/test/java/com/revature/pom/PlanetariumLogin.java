@@ -1,9 +1,6 @@
 package com.revature.pom;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -67,8 +64,28 @@ public class PlanetariumLogin {
 
     public void clearAlert(){
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        Alert alert = driver.switchTo().alert();
-        alert.accept();
+
+        if(isAlertPresent()){
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
+        }
+
+
+
+
+    }
+
+    public boolean isAlertPresent()
+    {
+        try
+        {
+            driver.switchTo().alert();
+            return true;
+        }
+        catch (NoAlertPresentException Ex)
+        {
+            return false;
+        }
     }
 
 }
