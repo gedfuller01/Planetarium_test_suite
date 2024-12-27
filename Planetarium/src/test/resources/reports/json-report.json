@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54786800,
+              "duration": 69068900,
               "status": "passed"
             },
             "line": 7,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 96711100,
+              "duration": 120832300,
               "status": "passed"
             },
             "line": 8,
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:55.455Z",
+        "start_timestamp": "2024-12-27T14:25:08.337Z",
         "line": 21,
         "name": "Users can register a new account with valid credentials",
         "description": "",
@@ -63,7 +63,6 @@
           },
           {
             "result": {
-              "duration": 999500,
               "status": "passed"
             },
             "line": 14,
@@ -81,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 705439300,
+              "duration": 791491700,
               "status": "passed"
             },
             "line": 15,
@@ -93,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 2525100,
+              "duration": 3070800,
               "status": "passed"
             },
             "line": 16,
@@ -105,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 9179100,
+              "duration": 7116900,
               "status": "passed"
             },
             "line": 17,
@@ -146,7 +145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25684000,
+              "duration": 30108700,
               "status": "passed"
             },
             "line": 7,
@@ -158,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 65761700,
+              "duration": 76695800,
               "status": "passed"
             },
             "line": 8,
@@ -171,7 +170,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:56.381Z",
+        "start_timestamp": "2024-12-27T14:25:09.391Z",
         "line": 34,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -215,8 +214,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 1 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.25.0\u0027, revision: \u00278a8aea2337\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\Ged\\AppData\\Local\\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57623}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57623/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 20959adc2cadad147a5975514618fd97\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.US1.US1Steps.the_user_submits_the_credentials(US1Steps.java:43)\r\n\tat ✽.the user submits the credentials(classpath:features/US1.feature:28)\r\n",
-              "duration": 1152254600,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 1 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.25.0\u0027, revision: \u00278a8aea2337\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\Ged\\AppData\\Local\\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61977/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f6b097d514d2a70f292e469f21af8f34\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.US1.US1Steps.the_user_submits_the_credentials(US1Steps.java:43)\r\n\tat ✽.the user submits the credentials(classpath:features/US1.feature:28)\r\n",
+              "duration": 1207555600,
               "status": "failed"
             },
             "line": 28,
@@ -291,7 +290,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24020300,
+              "duration": 32561400,
               "status": "passed"
             },
             "line": 7,
@@ -303,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 62565800,
+              "duration": 69955400,
               "status": "passed"
             },
             "line": 8,
@@ -316,7 +315,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:57.642Z",
+        "start_timestamp": "2024-12-27T14:25:10.726Z",
         "line": 35,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -326,7 +325,6 @@
         "steps": [
           {
             "result": {
-              "duration": 996700,
               "status": "passed"
             },
             "line": 26,
@@ -361,7 +359,7 @@
           },
           {
             "result": {
-              "duration": 121728600,
+              "duration": 126274000,
               "status": "passed"
             },
             "line": 28,
@@ -373,7 +371,7 @@
           },
           {
             "result": {
-              "duration": 2049400,
+              "duration": 2512600,
               "status": "passed"
             },
             "line": 29,
@@ -391,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 5983800,
+              "duration": 7479500,
               "status": "passed"
             },
             "line": 30,
@@ -438,7 +436,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25524900,
+              "duration": 35293400,
               "status": "passed"
             },
             "line": 7,
@@ -450,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 60950000,
+              "duration": 70186800,
               "status": "passed"
             },
             "line": 8,
@@ -463,7 +461,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:57.866Z",
+        "start_timestamp": "2024-12-27T14:25:10.973Z",
         "line": 36,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -473,7 +471,6 @@
         "steps": [
           {
             "result": {
-              "duration": 998500,
               "status": "passed"
             },
             "line": 26,
@@ -508,7 +505,7 @@
           },
           {
             "result": {
-              "duration": 133810800,
+              "duration": 185253900,
               "status": "passed"
             },
             "line": 28,
@@ -520,7 +517,7 @@
           },
           {
             "result": {
-              "duration": 1995500,
+              "duration": 3113700,
               "status": "passed"
             },
             "line": 29,
@@ -538,7 +535,7 @@
           },
           {
             "result": {
-              "duration": 5034900,
+              "duration": 7473000,
               "status": "passed"
             },
             "line": 30,
@@ -585,7 +582,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28157700,
+              "duration": 44328400,
               "status": "passed"
             },
             "line": 7,
@@ -597,7 +594,7 @@
           },
           {
             "result": {
-              "duration": 63325400,
+              "duration": 105769800,
               "status": "passed"
             },
             "line": 8,
@@ -610,7 +607,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:58.099Z",
+        "start_timestamp": "2024-12-27T14:25:11.284Z",
         "line": 37,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -620,6 +617,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000600,
               "status": "passed"
             },
             "line": 26,
@@ -654,7 +652,7 @@
           },
           {
             "result": {
-              "duration": 170568600,
+              "duration": 138262800,
               "status": "passed"
             },
             "line": 28,
@@ -666,7 +664,7 @@
           },
           {
             "result": {
-              "duration": 4172600,
+              "duration": 3184200,
               "status": "passed"
             },
             "line": 29,
@@ -684,7 +682,7 @@
           },
           {
             "result": {
-              "duration": 7482900,
+              "duration": 9139100,
               "status": "passed"
             },
             "line": 30,
@@ -731,7 +729,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31261900,
+              "duration": 36073900,
               "status": "passed"
             },
             "line": 7,
@@ -743,7 +741,7 @@
           },
           {
             "result": {
-              "duration": 63957400,
+              "duration": 79117100,
               "status": "passed"
             },
             "line": 8,
@@ -756,7 +754,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:58.380Z",
+        "start_timestamp": "2024-12-27T14:25:11.592Z",
         "line": 38,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -800,7 +798,7 @@
           },
           {
             "result": {
-              "duration": 130117600,
+              "duration": 145667100,
               "status": "passed"
             },
             "line": 28,
@@ -812,7 +810,7 @@
           },
           {
             "result": {
-              "duration": 1994500,
+              "duration": 2425600,
               "status": "passed"
             },
             "line": 29,
@@ -830,7 +828,7 @@
           },
           {
             "result": {
-              "duration": 5514400,
+              "duration": 7094700,
               "status": "passed"
             },
             "line": 30,
@@ -877,7 +875,7 @@
         "steps": [
           {
             "result": {
-              "duration": 29087200,
+              "duration": 32805400,
               "status": "passed"
             },
             "line": 7,
@@ -889,7 +887,7 @@
           },
           {
             "result": {
-              "duration": 78844400,
+              "duration": 89436900,
               "status": "passed"
             },
             "line": 8,
@@ -902,7 +900,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:58.618Z",
+        "start_timestamp": "2024-12-27T14:25:11.866Z",
         "line": 39,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -946,7 +944,7 @@
           },
           {
             "result": {
-              "duration": 165683400,
+              "duration": 133109800,
               "status": "passed"
             },
             "line": 28,
@@ -958,7 +956,7 @@
           },
           {
             "result": {
-              "duration": 2520700,
+              "duration": 2160100,
               "status": "passed"
             },
             "line": 29,
@@ -976,7 +974,7 @@
           },
           {
             "result": {
-              "duration": 6537500,
+              "duration": 5188500,
               "status": "passed"
             },
             "line": 30,
@@ -1023,7 +1021,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30049000,
+              "duration": 30332400,
               "status": "passed"
             },
             "line": 7,
@@ -1035,7 +1033,7 @@
           },
           {
             "result": {
-              "duration": 61974900,
+              "duration": 74014800,
               "status": "passed"
             },
             "line": 8,
@@ -1048,7 +1046,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:58.909Z",
+        "start_timestamp": "2024-12-27T14:25:12.135Z",
         "line": 40,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -1092,7 +1090,7 @@
           },
           {
             "result": {
-              "duration": 130838100,
+              "duration": 144726700,
               "status": "passed"
             },
             "line": 28,
@@ -1104,7 +1102,7 @@
           },
           {
             "result": {
-              "duration": 1516900,
+              "duration": 2504200,
               "status": "passed"
             },
             "line": 29,
@@ -1122,7 +1120,7 @@
           },
           {
             "result": {
-              "duration": 5001000,
+              "duration": 6228100,
               "status": "passed"
             },
             "line": 30,
@@ -1169,7 +1167,7 @@
         "steps": [
           {
             "result": {
-              "duration": 29838500,
+              "duration": 34947600,
               "status": "passed"
             },
             "line": 7,
@@ -1181,7 +1179,7 @@
           },
           {
             "result": {
-              "duration": 69042200,
+              "duration": 76156400,
               "status": "passed"
             },
             "line": 8,
@@ -1194,7 +1192,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:59.144Z",
+        "start_timestamp": "2024-12-27T14:25:12.401Z",
         "line": 41,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -1238,7 +1236,7 @@
           },
           {
             "result": {
-              "duration": 115185700,
+              "duration": 127296200,
               "status": "passed"
             },
             "line": 28,
@@ -1250,7 +1248,7 @@
           },
           {
             "result": {
-              "duration": 1995100,
+              "duration": 1176500,
               "status": "passed"
             },
             "line": 29,
@@ -1268,7 +1266,7 @@
           },
           {
             "result": {
-              "duration": 5497800,
+              "duration": 5514300,
               "status": "passed"
             },
             "line": 30,
@@ -1315,7 +1313,7 @@
         "steps": [
           {
             "result": {
-              "duration": 29663600,
+              "duration": 35937000,
               "status": "passed"
             },
             "line": 7,
@@ -1327,7 +1325,7 @@
           },
           {
             "result": {
-              "duration": 91337300,
+              "duration": 74233500,
               "status": "passed"
             },
             "line": 8,
@@ -1340,7 +1338,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:59.368Z",
+        "start_timestamp": "2024-12-27T14:25:12.654Z",
         "line": 42,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -1384,7 +1382,7 @@
           },
           {
             "result": {
-              "duration": 151102600,
+              "duration": 141749100,
               "status": "passed"
             },
             "line": 28,
@@ -1396,7 +1394,7 @@
           },
           {
             "result": {
-              "duration": 1475200,
+              "duration": 3718100,
               "status": "passed"
             },
             "line": 29,
@@ -1414,7 +1412,7 @@
           },
           {
             "result": {
-              "duration": 5987900,
+              "duration": 6499000,
               "status": "passed"
             },
             "line": 30,
@@ -1461,7 +1459,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31313400,
+              "duration": 35906000,
               "status": "passed"
             },
             "line": 7,
@@ -1473,7 +1471,7 @@
           },
           {
             "result": {
-              "duration": 63517000,
+              "duration": 75121600,
               "status": "passed"
             },
             "line": 8,
@@ -1486,7 +1484,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:59.657Z",
+        "start_timestamp": "2024-12-27T14:25:12.922Z",
         "line": 43,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -1530,7 +1528,7 @@
           },
           {
             "result": {
-              "duration": 115034600,
+              "duration": 131715700,
               "status": "passed"
             },
             "line": 28,
@@ -1542,7 +1540,7 @@
           },
           {
             "result": {
-              "duration": 996400,
+              "duration": 1996100,
               "status": "passed"
             },
             "line": 29,
@@ -1560,7 +1558,7 @@
           },
           {
             "result": {
-              "duration": 3989200,
+              "duration": 6323800,
               "status": "passed"
             },
             "line": 30,
@@ -1607,7 +1605,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27157600,
+              "duration": 34090600,
               "status": "passed"
             },
             "line": 7,
@@ -1619,7 +1617,7 @@
           },
           {
             "result": {
-              "duration": 62917800,
+              "duration": 74260400,
               "status": "passed"
             },
             "line": 8,
@@ -1632,7 +1630,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:51:59.876Z",
+        "start_timestamp": "2024-12-27T14:25:13.178Z",
         "line": 44,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -1642,6 +1640,7 @@
         "steps": [
           {
             "result": {
+              "duration": 985700,
               "status": "passed"
             },
             "line": 26,
@@ -1676,7 +1675,7 @@
           },
           {
             "result": {
-              "duration": 121499900,
+              "duration": 124913700,
               "status": "passed"
             },
             "line": 28,
@@ -1688,7 +1687,7 @@
           },
           {
             "result": {
-              "duration": 2504500,
+              "duration": 1995200,
               "status": "passed"
             },
             "line": 29,
@@ -1706,7 +1705,7 @@
           },
           {
             "result": {
-              "duration": 5000400,
+              "duration": 4986300,
               "status": "passed"
             },
             "line": 30,
@@ -1753,7 +1752,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25518400,
+              "duration": 30398900,
               "status": "passed"
             },
             "line": 7,
@@ -1765,7 +1764,7 @@
           },
           {
             "result": {
-              "duration": 62302000,
+              "duration": 74146500,
               "status": "passed"
             },
             "line": 8,
@@ -1778,7 +1777,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:00.101Z",
+        "start_timestamp": "2024-12-27T14:25:13.423Z",
         "line": 45,
         "name": "Users can not register a new account with invalid credentials",
         "description": "",
@@ -1805,6 +1804,7 @@
           },
           {
             "result": {
+              "duration": 1017200,
               "status": "passed"
             },
             "line": 27,
@@ -1822,7 +1822,7 @@
           },
           {
             "result": {
-              "duration": 114718400,
+              "duration": 121752500,
               "status": "passed"
             },
             "line": 28,
@@ -1834,7 +1834,7 @@
           },
           {
             "result": {
-              "duration": 1996900,
+              "duration": 2703900,
               "status": "passed"
             },
             "line": 29,
@@ -1852,7 +1852,7 @@
           },
           {
             "result": {
-              "duration": 3989100,
+              "duration": 7875800,
               "status": "passed"
             },
             "line": 30,
@@ -1927,7 +1927,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24380800,
+              "duration": 37955600,
               "status": "passed"
             },
             "line": 6,
@@ -1940,7 +1940,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:00.316Z",
+        "start_timestamp": "2024-12-27T14:25:13.669Z",
         "line": 16,
         "name": "Users can login with valid credentials",
         "description": "",
@@ -1984,7 +1984,7 @@
           },
           {
             "result": {
-              "duration": 150460200,
+              "duration": 674371200,
               "status": "passed"
             },
             "line": 11,
@@ -1996,7 +1996,7 @@
           },
           {
             "result": {
-              "duration": 75689900,
+              "duration": 51967900,
               "status": "passed"
             },
             "line": 12,
@@ -2028,7 +2028,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23562100,
+              "duration": 23993700,
               "status": "passed"
             },
             "line": 6,
@@ -2041,7 +2041,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:00.571Z",
+        "start_timestamp": "2024-12-27T14:25:14.441Z",
         "line": 26,
         "name": "Users cannot login with invalid credentials",
         "description": "",
@@ -2085,7 +2085,7 @@
           },
           {
             "result": {
-              "duration": 113490300,
+              "duration": 617336900,
               "status": "passed"
             },
             "line": 20,
@@ -2097,7 +2097,7 @@
           },
           {
             "result": {
-              "duration": 6510600,
+              "duration": 5983200,
               "status": "passed"
             },
             "line": 21,
@@ -2109,7 +2109,7 @@
           },
           {
             "result": {
-              "duration": 4989000,
+              "duration": 5989700,
               "status": "passed"
             },
             "line": 22,
@@ -2141,7 +2141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17444300,
+              "duration": 16562700,
               "status": "passed"
             },
             "line": 6,
@@ -2154,7 +2154,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:00.723Z",
+        "start_timestamp": "2024-12-27T14:25:15.098Z",
         "line": 27,
         "name": "Users cannot login with invalid credentials",
         "description": "",
@@ -2164,7 +2164,6 @@
         "steps": [
           {
             "result": {
-              "duration": 997200,
               "status": "passed"
             },
             "line": 18,
@@ -2182,6 +2181,7 @@
           },
           {
             "result": {
+              "duration": 998300,
               "status": "passed"
             },
             "line": 19,
@@ -2199,7 +2199,7 @@
           },
           {
             "result": {
-              "duration": 628472500,
+              "duration": 644777000,
               "status": "passed"
             },
             "line": 20,
@@ -2211,7 +2211,7 @@
           },
           {
             "result": {
-              "duration": 7178700,
+              "duration": 12486500,
               "status": "passed"
             },
             "line": 21,
@@ -2223,7 +2223,7 @@
           },
           {
             "result": {
-              "duration": 5983200,
+              "duration": 2989400,
               "status": "passed"
             },
             "line": 22,
@@ -2255,7 +2255,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15130100,
+              "duration": 17067800,
               "status": "passed"
             },
             "line": 6,
@@ -2268,7 +2268,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:01.386Z",
+        "start_timestamp": "2024-12-27T14:25:15.783Z",
         "line": 28,
         "name": "Users cannot login with invalid credentials",
         "description": "",
@@ -2295,6 +2295,7 @@
           },
           {
             "result": {
+              "duration": 1031900,
               "status": "passed"
             },
             "line": 19,
@@ -2312,7 +2313,7 @@
           },
           {
             "result": {
-              "duration": 624696900,
+              "duration": 626205700,
               "status": "passed"
             },
             "line": 20,
@@ -2324,7 +2325,7 @@
           },
           {
             "result": {
-              "duration": 6497000,
+              "duration": 6785500,
               "status": "passed"
             },
             "line": 21,
@@ -2336,7 +2337,7 @@
           },
           {
             "result": {
-              "duration": 4525800,
+              "duration": 4985200,
               "status": "passed"
             },
             "line": 22,
@@ -2396,7 +2397,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-12-26T18:52:02.040Z",
+        "start_timestamp": "2024-12-27T14:25:16.442Z",
         "line": 6,
         "name": "Login should allow for viewing owned resources",
         "description": "",
@@ -2406,7 +2407,7 @@
         "steps": [
           {
             "result": {
-              "duration": 661471600,
+              "duration": 692374600,
               "status": "passed"
             },
             "line": 7,
@@ -2418,7 +2419,7 @@
           },
           {
             "result": {
-              "duration": 64015900,
+              "duration": 71473700,
               "status": "passed"
             },
             "line": 8,
@@ -2448,7 +2449,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:02.770Z",
+        "start_timestamp": "2024-12-27T14:25:17.210Z",
         "line": 10,
         "name": "Users not logged in should not be able to view the home page and its resources",
         "description": "",
@@ -2458,7 +2459,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19483200,
+              "duration": 20932100,
               "status": "passed"
             },
             "line": 11,
@@ -2470,7 +2471,7 @@
           },
           {
             "result": {
-              "duration": 33532200,
+              "duration": 22785900,
               "status": "passed"
             },
             "line": 12,
@@ -2482,7 +2483,7 @@
           },
           {
             "result": {
-              "duration": 3444500,
+              "duration": 4985500,
               "status": "passed"
             },
             "line": 13,
@@ -2550,7 +2551,7 @@
         "steps": [
           {
             "result": {
-              "duration": 673197300,
+              "duration": 691362800,
               "status": "passed"
             },
             "line": 5,
@@ -2563,7 +2564,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:02.832Z",
+        "start_timestamp": "2024-12-27T14:25:17.262Z",
         "line": 14,
         "name": "Users should be able to add planets",
         "description": "",
@@ -2573,7 +2574,7 @@
         "steps": [
           {
             "result": {
-              "duration": 158067000,
+              "duration": 165763900,
               "status": "passed"
             },
             "line": 8,
@@ -2591,7 +2592,7 @@
           },
           {
             "result": {
-              "duration": 98681300,
+              "duration": 116098900,
               "status": "passed"
             },
             "line": 9,
@@ -2603,7 +2604,7 @@
           },
           {
             "result": {
-              "duration": 6982900,
+              "duration": 7877900,
               "status": "passed"
             },
             "line": 10,
@@ -2629,7 +2630,7 @@
         "steps": [
           {
             "result": {
-              "duration": 161337000,
+              "duration": 694627500,
               "status": "passed"
             },
             "line": 5,
@@ -2642,7 +2643,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:03.774Z",
+        "start_timestamp": "2024-12-27T14:25:18.248Z",
         "line": 23,
         "name": "Users should be able to add moons",
         "description": "",
@@ -2652,7 +2653,7 @@
         "steps": [
           {
             "result": {
-              "duration": 247913000,
+              "duration": 237376200,
               "status": "passed"
             },
             "line": 17,
@@ -2674,7 +2675,7 @@
           },
           {
             "result": {
-              "duration": 93236400,
+              "duration": 97101300,
               "status": "passed"
             },
             "line": 18,
@@ -2686,7 +2687,7 @@
           },
           {
             "result": {
-              "duration": 6503900,
+              "duration": 8966100,
               "status": "passed"
             },
             "line": 19,
@@ -2712,7 +2713,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160839600,
+              "duration": 696274800,
               "status": "passed"
             },
             "line": 5,
@@ -2725,7 +2726,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:04.286Z",
+        "start_timestamp": "2024-12-27T14:25:19.288Z",
         "line": 32,
         "name": "Users should not be able to add invalid planets",
         "description": "",
@@ -2735,7 +2736,7 @@
         "steps": [
           {
             "result": {
-              "duration": 210981200,
+              "duration": 125768000,
               "status": "passed"
             },
             "line": 26,
@@ -2753,7 +2754,7 @@
           },
           {
             "result": {
-              "duration": 997100,
+              "duration": 2991000,
               "status": "passed"
             },
             "line": 27,
@@ -2765,7 +2766,7 @@
           },
           {
             "result": {
-              "duration": 7579000,
+              "duration": 6133000,
               "status": "passed"
             },
             "line": 28,
@@ -2797,7 +2798,7 @@
         "steps": [
           {
             "result": {
-              "duration": 164052500,
+              "duration": 195877400,
               "status": "passed"
             },
             "line": 5,
@@ -2810,7 +2811,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:04.670Z",
+        "start_timestamp": "2024-12-27T14:25:20.125Z",
         "line": 33,
         "name": "Users should not be able to add invalid planets",
         "description": "",
@@ -2820,7 +2821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 208994400,
+              "duration": 264326200,
               "status": "passed"
             },
             "line": 26,
@@ -2838,7 +2839,7 @@
           },
           {
             "result": {
-              "duration": 1095600,
+              "duration": 996200,
               "status": "passed"
             },
             "line": 27,
@@ -2850,7 +2851,7 @@
           },
           {
             "result": {
-              "duration": 7348700,
+              "duration": 7599500,
               "status": "passed"
             },
             "line": 28,
@@ -2882,7 +2883,7 @@
         "steps": [
           {
             "result": {
-              "duration": 167318000,
+              "duration": 712647000,
               "status": "passed"
             },
             "line": 5,
@@ -2895,7 +2896,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:05.054Z",
+        "start_timestamp": "2024-12-27T14:25:20.596Z",
         "line": 34,
         "name": "Users should not be able to add invalid planets",
         "description": "",
@@ -2905,7 +2906,7 @@
         "steps": [
           {
             "result": {
-              "duration": 181550900,
+              "duration": 126377600,
               "status": "passed"
             },
             "line": 26,
@@ -2923,7 +2924,7 @@
           },
           {
             "result": {
-              "duration": 1009500,
+              "duration": 1002800,
               "status": "passed"
             },
             "line": 27,
@@ -2935,7 +2936,7 @@
           },
           {
             "result": {
-              "duration": 6244500,
+              "duration": 5090400,
               "status": "passed"
             },
             "line": 28,
@@ -2967,7 +2968,7 @@
         "steps": [
           {
             "result": {
-              "duration": 172454000,
+              "duration": 684348200,
               "status": "passed"
             },
             "line": 5,
@@ -2980,7 +2981,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:05.412Z",
+        "start_timestamp": "2024-12-27T14:25:21.444Z",
         "line": 43,
         "name": "Users should not be able to add invalid moons",
         "description": "",
@@ -2990,7 +2991,7 @@
         "steps": [
           {
             "result": {
-              "duration": 237789200,
+              "duration": 205409100,
               "status": "passed"
             },
             "line": 37,
@@ -3012,7 +3013,7 @@
           },
           {
             "result": {
-              "duration": 518153400,
+              "duration": 4979100,
               "status": "passed"
             },
             "line": 38,
@@ -3025,7 +3026,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[I]nvalid moon name\u003e but was:\u003c[i]nvalid moon name\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.steps.US4.US4Steps.the_user_should_get_an_alert_saying(US4Steps.java:54)\r\n\tat ✽.the user should get an alert saying \"Invalid moon name\"(classpath:features/US4.feature:39)\r\n",
-              "duration": 5872400,
+              "duration": 3407700,
               "status": "failed"
             },
             "line": 39,
@@ -3057,7 +3058,7 @@
         "steps": [
           {
             "result": {
-              "duration": 172656400,
+              "duration": 727815800,
               "status": "passed"
             },
             "line": 5,
@@ -3070,7 +3071,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:06.351Z",
+        "start_timestamp": "2024-12-27T14:25:22.348Z",
         "line": 44,
         "name": "Users should not be able to add invalid moons",
         "description": "",
@@ -3080,7 +3081,7 @@
         "steps": [
           {
             "result": {
-              "duration": 238452100,
+              "duration": 228911800,
               "status": "passed"
             },
             "line": 37,
@@ -3102,6 +3103,7 @@
           },
           {
             "result": {
+              "duration": 1011600,
               "status": "passed"
             },
             "line": 38,
@@ -3113,7 +3115,7 @@
           },
           {
             "result": {
-              "duration": 5435100,
+              "duration": 6528500,
               "status": "passed"
             },
             "line": 39,
@@ -3145,7 +3147,7 @@
         "steps": [
           {
             "result": {
-              "duration": 676345800,
+              "duration": 692596600,
               "status": "passed"
             },
             "line": 5,
@@ -3158,7 +3160,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:06.771Z",
+        "start_timestamp": "2024-12-27T14:25:23.318Z",
         "line": 45,
         "name": "Users should not be able to add invalid moons",
         "description": "",
@@ -3168,7 +3170,7 @@
         "steps": [
           {
             "result": {
-              "duration": 194052200,
+              "duration": 212456400,
               "status": "passed"
             },
             "line": 37,
@@ -3190,7 +3192,7 @@
           },
           {
             "result": {
-              "duration": 1023700,
+              "duration": 998900,
               "status": "passed"
             },
             "line": 38,
@@ -3202,7 +3204,7 @@
           },
           {
             "result": {
-              "duration": 4990300,
+              "duration": 7491000,
               "status": "passed"
             },
             "line": 39,
@@ -3234,7 +3236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 168735500,
+              "duration": 707513200,
               "status": "passed"
             },
             "line": 5,
@@ -3247,7 +3249,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:07.651Z",
+        "start_timestamp": "2024-12-27T14:25:24.235Z",
         "line": 53,
         "name": "Users should be able to add an image with a valid planet",
         "description": "",
@@ -3257,7 +3259,7 @@
         "steps": [
           {
             "result": {
-              "duration": 200859200,
+              "duration": 120904300,
               "status": "passed"
             },
             "line": 47,
@@ -3275,7 +3277,7 @@
           },
           {
             "result": {
-              "duration": 68959000,
+              "duration": 76984200,
               "status": "passed"
             },
             "line": 48,
@@ -3293,7 +3295,7 @@
           },
           {
             "result": {
-              "duration": 95806000,
+              "duration": 101398400,
               "status": "passed"
             },
             "line": 49,
@@ -3305,7 +3307,7 @@
           },
           {
             "result": {
-              "duration": 5987700,
+              "duration": 7492200,
               "status": "passed"
             },
             "line": 50,
@@ -3331,7 +3333,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160155000,
+              "duration": 182260700,
               "status": "passed"
             },
             "line": 5,
@@ -3344,7 +3346,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:08.194Z",
+        "start_timestamp": "2024-12-27T14:25:25.253Z",
         "line": 62,
         "name": "Users should not be able to add an invalid image",
         "description": "",
@@ -3354,7 +3356,7 @@
         "steps": [
           {
             "result": {
-              "duration": 84515000,
+              "duration": 104739800,
               "status": "passed"
             },
             "line": 55,
@@ -3372,7 +3374,7 @@
           },
           {
             "result": {
-              "duration": 165987300,
+              "duration": 177063200,
               "status": "passed"
             },
             "line": 56,
@@ -3390,8 +3392,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 1 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.25.0\u0027, revision: \u00278a8aea2337\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\Ged\\AppData\\Local\\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57623}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57623/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 20959adc2cadad147a5975514618fd97\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.US4.US4Steps.the_data_is_invalid(US4Steps.java:68)\r\n\tat ✽.the data is invalid(classpath:features/US4.feature:57)\r\n",
-              "duration": 1025868600,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 1 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.25.0\u0027, revision: \u00278a8aea2337\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\\Users\\Ged\\AppData\\Local\\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61977/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f6b097d514d2a70f292e469f21af8f34\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat com.revature.steps.US4.US4Steps.the_data_is_invalid(US4Steps.java:68)\r\n\tat ✽.the data is invalid(classpath:features/US4.feature:57)\r\n",
+              "duration": 1018094100,
               "status": "failed"
             },
             "line": 57,
@@ -3454,7 +3456,7 @@
         "steps": [
           {
             "result": {
-              "duration": 157466700,
+              "duration": 189864000,
               "status": "passed"
             },
             "line": 5,
@@ -3467,7 +3469,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:09.634Z",
+        "start_timestamp": "2024-12-27T14:25:26.739Z",
         "line": 15,
         "name": "deleting planets",
         "description": "",
@@ -3477,7 +3479,7 @@
         "steps": [
           {
             "result": {
-              "duration": 195222500,
+              "duration": 225477200,
               "status": "passed"
             },
             "line": 8,
@@ -3506,7 +3508,7 @@
           },
           {
             "result": {
-              "duration": 106218800,
+              "duration": 104956200,
               "status": "passed"
             },
             "line": 10,
@@ -3518,7 +3520,7 @@
           },
           {
             "result": {
-              "duration": 4986600,
+              "duration": 6982100,
               "status": "passed"
             },
             "line": 11,
@@ -3547,7 +3549,7 @@
         "steps": [
           {
             "result": {
-              "duration": 158656200,
+              "duration": 695778400,
               "status": "passed"
             },
             "line": 5,
@@ -3560,7 +3562,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:10.103Z",
+        "start_timestamp": "2024-12-27T14:25:27.272Z",
         "line": 24,
         "name": "incorrect planet name",
         "description": "",
@@ -3570,7 +3572,7 @@
         "steps": [
           {
             "result": {
-              "duration": 192230300,
+              "duration": 123833300,
               "status": "passed"
             },
             "line": 18,
@@ -3588,6 +3590,7 @@
           },
           {
             "result": {
+              "duration": 505952500,
               "status": "passed"
             },
             "line": 19,
@@ -3599,7 +3602,7 @@
           },
           {
             "result": {
-              "duration": 8643100,
+              "duration": 7011700,
               "status": "passed"
             },
             "line": 20,
@@ -3628,7 +3631,7 @@
         "steps": [
           {
             "result": {
-              "duration": 154022800,
+              "duration": 691617600,
               "status": "passed"
             },
             "line": 5,
@@ -3641,7 +3644,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:10.467Z",
+        "start_timestamp": "2024-12-27T14:25:28.609Z",
         "line": 33,
         "name": "deleting moons",
         "description": "",
@@ -3651,7 +3654,7 @@
         "steps": [
           {
             "result": {
-              "duration": 144858900,
+              "duration": 173041100,
               "status": "passed"
             },
             "line": 27,
@@ -3680,7 +3683,7 @@
           },
           {
             "result": {
-              "duration": 91963200,
+              "duration": 102862400,
               "status": "passed"
             },
             "line": 29,
@@ -3709,7 +3712,7 @@
         "steps": [
           {
             "result": {
-              "duration": 157985400,
+              "duration": 701787900,
               "status": "passed"
             },
             "line": 5,
@@ -3722,7 +3725,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T18:52:10.861Z",
+        "start_timestamp": "2024-12-27T14:25:29.581Z",
         "line": 42,
         "name": "incorrect moon name",
         "description": "",
@@ -3732,7 +3735,7 @@
         "steps": [
           {
             "result": {
-              "duration": 187588300,
+              "duration": 182441800,
               "status": "passed"
             },
             "line": 36,
@@ -3750,7 +3753,7 @@
           },
           {
             "result": {
-              "duration": 990900,
+              "duration": 511097000,
               "status": "passed"
             },
             "line": 37,
@@ -3762,7 +3765,7 @@
           },
           {
             "result": {
-              "duration": 7964400,
+              "duration": 6838800,
               "status": "passed"
             },
             "line": 38,

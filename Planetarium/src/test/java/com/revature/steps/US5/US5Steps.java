@@ -39,6 +39,8 @@ public class US5Steps {
     @When("the planet doesn't exist")
     public void the_planet_doesn_t_exist() {
         // Write code here that turns the phrase above into concrete actions
+        TestRunner.webDriverWait.until(ExpectedConditions.alertIsPresent());
+
 
     }
 
@@ -74,6 +76,8 @@ public class US5Steps {
     @When("the moon doesn't exist")
     public void the_moon_doesn_t_exist() {
         // Write code here that turns the phrase above into concrete actions
+        TestRunner.webDriverWait.until(ExpectedConditions.alertIsPresent());
+
 
     }
 
